@@ -1,0 +1,54 @@
+# If you prefer the allow list template instead of the deny list, see community template:
+# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+#
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+__debug*
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go workspace file
+go.work
+
+# Idea files
+.idea
+
+# Model registry config and DB files to ignore
+.model-registry.yaml
+model-registry
+metadata.sqlite.db
+
+# Ignore go vendor and code coverage files
+vendor
+coverage.*
+
+# Robot Framework files
+log.html
+output.xml
+report.html
+__pycache__
+
+# Protoc files
+include/
+readme.txt
+
+#OSX files
+**/.DS_Store
+
+# CSI executable
+mr-storage-initializer
+
+# KServe manifests
+istio-*
+
+# VSCode files
+.vscode/
