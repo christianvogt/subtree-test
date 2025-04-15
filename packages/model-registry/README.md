@@ -1,4 +1,4 @@
-New changes for testing
+New changes for testing.
 -----------------------
 
 # Model Registry
